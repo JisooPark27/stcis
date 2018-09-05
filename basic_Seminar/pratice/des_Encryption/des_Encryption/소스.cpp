@@ -96,7 +96,7 @@ int SBOX[8][4][16] = { { { 14, 4, 13, 1, 2, 15, 11, 8, 3, 10, 6, 12, 5, 9, 0, 7 
 
 int round = 0;
 
-int plainTextIn[16];
+char plainTextIn[16];
 int beforeIp_64[64];
 int afterIp_64[64];
 int afterIp[16];
